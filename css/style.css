@@ -119,16 +119,16 @@ span.menu {
 	position:relative;
 }
 .banner1{
-	background:url(../images/11.png)no-repeat 0px 0px;
+	background:url(../image/11.png)no-repeat 0px 0px;
 	background-size:100% 100%;
 	min-height: 600px;
 }
 .banner2{
-	background:url(../images/11.png)no-repeat 0px 0px;
+	background:url(../image/11.png)no-repeat 0px 0px;
 	background-size:cover;
 }
 .banner3{
-	background:url(../images/11.png)no-repeat 0px 0px;
+	background:url(../image/11.png)no-repeat 0px 0px;
 	background-size:cover;
 }
 /*--//banner--*/
@@ -209,7 +209,7 @@ span.menu {
     text-decoration: none;
     height: 32px;
     width: 32px;
-    background: transparent url("../images/icons.png") no-repeat 0px 0px;
+    background: transparent url("../image/icons.png") no-repeat 0px 0px;
 }
 .callbacks_nav:active {
   opacity: 1.0;
@@ -217,7 +217,7 @@ span.menu {
 .callbacks_nav.next {
     left: auto;
     right: 3%;
-    background: url(../images/icons.png)no-repeat -36px 0px;
+    background: url(../image/icons.png)no-repeat -36px 0px;
 }
 #slider3-pager a ,#slider4-pager a {
   display: inline-block;
@@ -370,7 +370,7 @@ span.menu {
 	cursor: pointer;
 }
 .sb-search-submit {
-	background:#fff url('../images/search.png') no-repeat center 3px;
+	background:#fff url('../image/search.png') no-repeat center 3px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
     filter: alpha(opacity=0); /* IE 5-7 */
     color: transparent;
@@ -380,7 +380,7 @@ span.menu {
 	-webkit-appearance: none;
 }
 .sb-icon-search {
-   background:#fff url('../images/search.png') no-repeat center 3px;
+   background:#fff url('../image/search.png') no-repeat center 3px;
 	z-index: 90;
 }
 /* Open state */
@@ -453,7 +453,7 @@ h1.hdng{
 /*--//welcome--*/
 /*--services--*/
 .services {
-    background: url(../images/slid.jpg)no-repeat 0px 0px;
+    background: url(../image/slid.jpg)no-repeat 0px 0px;
     background-size: cover;
 	padding: 8em 0 5em;
 }
@@ -499,7 +499,7 @@ h1.hdng{
 }
 
 .work-grids.work-img {
-    background: url(../images/img3.jpg)no-repeat;
+    background: url(../image/img3.jpg)no-repeat;
     background-size: 100% 100%;
     min-height: 400px;
    margin-top:8rem;
@@ -536,7 +536,7 @@ span.glyphicon.glyphicon-chevron-right {
     margin-right: 1em;
 }
 .work-grids.work-img.work-img-btm {
-    background: url(../images/img4.jpg)no-repeat 0px 0px;
+    background: url(../image/img4.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 560px;
 }
@@ -572,20 +572,20 @@ span.glyphicon.glyphicon-chevron-right {
     margin-right: 10px;
 }
 .social-icons ul li a {
-    background: url(../images/iconsprite.png)no-repeat 3px -33px;
+    background: url(../image/iconsprite.png)no-repeat 3px -33px;
     display: block;
     width: 32px;
     height: 32px;
     transition: none;
 }
 .social-icons ul li a.fb {
-    background: url(../images/iconsprite.png)no-repeat 10px 3px;
+    background: url(../image/iconsprite.png)no-repeat 10px 3px;
 }
 .social-icons ul li a.pn {
-    background: url(../images/iconsprite.png)no-repeat 6px -108px;
+    background: url(../image/iconsprite.png)no-repeat 6px -108px;
 }
 .social-icons ul li a.gg {
-    background: url(../images/iconsprite.png)no-repeat 6px -69px;
+    background: url(../image/iconsprite.png)no-repeat 6px -69px;
 }
 .social-icons ul li a:hover {
 	opacity: 0.5;
@@ -603,7 +603,7 @@ span.glyphicon.glyphicon-chevron-right {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/move-up.png") no-repeat 0px 0px;
+	background: url("../image/move-up.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
@@ -662,7 +662,7 @@ span.glyphicon.glyphicon-chevron-right {
     padding-left: 10px;
 }
 .about-slid {
-    background: url(../images/slid3.jpg)no-repeat 0px 0px fixed;
+    background: url(../image/slid3.jpg)no-repeat 0px 0px fixed;
     background-size: cover;
     text-align: center;
     padding: 6em 0;
