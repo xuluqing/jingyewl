@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta http-equiv="pragma" content="private">
+	<link rel="stylesheet" href="./css/index.css">
+	<title>业务介绍</title>
+
+</head>
+<body>
+	<div class="boxx">
+		<marquee behavior="left" direction=""><h1>绵阳敬业物流竭诚为您服务</h1>联系电话18990156711 联系人：黄经理</marquee>
+	<p class="time"></p>
+	<!-- <div class="top">
+		<p class="city p">当前城市:</p>
+		<p class="wendu p">温度:</p>
+		<p class="tianqi p">天气:</p>
+		<img class="tuu p"src="" alt="">
+	</div> -->
+
+	<div class="box">
+		<div class="tu">
+			<img class="images" src="./image/1.jpg" alt="">	
+			<img class="images"src="./image/2.jpg" alt="">	
+			<img class="images" src="./image/3.jpg" alt="">	
+			<img class="images" src="./image/4.jpg" alt="">	
+	</div>
+	</div>
+	
+	
+	<script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script  type="text/javascript" charset="utf-8" >
+		// var appid  =  '49361';
+		// var secret =   'd296e33221b34544bd4b78f0ad800816';
+		// var tianqi_url = "https://route.showapi.com/9-2";
+		// window.onload=function(){
+		// 	$.ajax({
+		// 	    type: 'post',
+		// 	    url: 'https://route.showapi.com/9-2',
+		// 	    dataType: 'json',
+		// 	    data: {
+		// 	        // "showapi_timestamp": formatterDateTime(),
+		// 	        "showapi_appid": appid, //这里需要改成自己的appid
+		// 	        "showapi_sign": secret,  //这里需要改成自己的应用的密钥secret
+		// 	        "area":"绵阳"      //城市名称的参数,必要字段
+		// 	    },
+
+		// 	    error: function(XmlHttpRequest, textStatus, errorThrown) {
+		// 	        alert("操作失败!");
+		// 	    },
+		// 	    success: function(data) {
+		// 	    	// console.log(data);//console变量在ie低版本下不能用 0为成功 -1错误 -2 余额不足
+		// 	     //    console.log(data.showapi_res_body.cityInfo.c3);	       
+		// 	   		// console.log(data.showapi_res_body.f1.day_weather_pic);	
+		// 	        $(".city").text("城市:"+data.showapi_res_body.cityInfo.c3);
+		// 	        // $(".riqi").text("日期:"+data.showapi_res_body.f1.day);
+		// 	        $(".wendu").text("温度:"+data.showapi_res_body.f1.day_air_temperature+"℃");
+		// 	        $(".tianqi").text("天气:"+data.showapi_res_body.f1.day_weather);
+		// 	        $(".tuu").attr("src",data.showapi_res_body.f1.day_weather_pic);     
+		// 	    }
+		// 	});
+		// }
+		
+
+
+	// $(document).ready(function() {
+	// 	var n=-1;
+	// 	setInterval(function(){
+ //                $(".time").text('当前：' + new Date().toLocaleString());
+ //                //固定颜色选择
+ //    			var clo=["green","blue","yellow","pink","LightPink","Crimson","LavenderBlush"]
+	// 			n++;
+	// 			// console.log(n)
+	// 			$("h1").css('color',clo[n]);
+	// 			if(n==7){
+	// 				n=0;
+	// 			}  
+	// 			//随机颜色选择
+	// 			  var r=Math.floor(Math.random()*256);
+ //                  var g=Math.floor(Math.random()*256);
+ //                  var b=Math.floor(Math.random()*256);
+	// 			  var rgba="rgb("+r+','+g+','+b+")"; //返回rgba(r,g,b,a)格式颜色
+	// 			  $(".tu").css("color",rgba);	          
+	// 		},1000);
+
+	// });
+			var n=0;
+			var sid=setInterval(function(){
+					n++;
+					if(n>3){
+						n=0;
+					}
+					console.log(n);
+				$(".tu").css("marginLeft",-n*900+"px");
+
+			},3000)
+		
+
+		// $(".btn").click(function(){
+		// 	// var audio=document.querySelector(".music");
+		// 	var audio=$(".music")[0]; //获取audio需要[0]，因为js操作获得的是audio对象，jQuery选择器获得的是jQuery对象，[0]对象的才是对应的节点对象，所以不能直接使用jQuery对象去操作。
+		
+		// 		audio.play();
+		// console.log(audio);
+		// })
+
+	</script>
+</body>
+</html>

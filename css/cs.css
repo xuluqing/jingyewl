@@ -1,0 +1,61 @@
+.about-a{
+text-align: center;
+}
+.about-a>h1:nth-child(2){
+  color:#D8D8D8;
+}
+.title{
+  text-align: center;
+}
+.title1{
+  color:#D8D8D8;
+}
+.about-team{
+  margin-top:-5rem;
+}
+.address span{
+  font-size:1.6rem;
+  color:black;
+}
+.title2{
+  color:#AA846D;
+}
+.gen{
+  display: block;
+  width:15rem;
+  height:0.5rem;
+  background:#0099FF;
+  margin: 0 auto;
+}
+.news-info p{
+  text-align: center;
+}
+.news-info{
+  margin-top:2rem;
+}
+.work-grids.work-imgs {
+    background: url(../images/ser.gif)no-repeat;
+    background-size: 100% 100%;
+    min-height: 400px;
+   margin-top:8rem;
+}
+.gen1{
+  display: block;
+  width:5rem;
+  height:0.2rem;
+  background:#0099FF;
+
+}
+
+[image]{
+  display: block;
+  width: 100%;
+border: 1px solid transparent;
+}
+
+.about-team h1{
+   font-size: 2.2em;
+}
+hr{
+	border: 1px solid  transparent;
+}

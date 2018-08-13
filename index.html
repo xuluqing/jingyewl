@@ -1,113 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	
-	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-    <meta http-equiv="pragma" content="private">
-	<link rel="stylesheet" href="./css/index.css">
-	<title>业务介绍</title>
+<title>About</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Stylish Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/cs.css" type="text/css" rel="stylesheet" media="all">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+
+<script src="js/menu_jquery.js"></script>
 
 </head>
 <body>
-	<div class="boxx">
-		<marquee behavior="left" direction=""><h1>绵阳敬业物流竭诚为您服务</h1>联系电话18990156711 联系人：黄经理</marquee>
-	<p class="time"></p>
-	<!-- <div class="top">
-		<p class="city p">当前城市:</p>
-		<p class="wendu p">温度:</p>
-		<p class="tianqi p">天气:</p>
-		<img class="tuu p"src="" alt="">
+	<div class="header">
+		<div class="container">
+
+		<!-- 	<div class="logo">
+				<a href="index.html"> <img src="images/logo.png" alt=""/></a>
+			</div> -->
+			<div class="enam"><span>绵阳敬业物流有限公司</span></div>
+			<div class="top-nav" style="float: left">
+				<ul>
+					<!-- <li><a  href="index.html">首页</a></li> -->
+					<li><a class="active" href="index.html">关于我们</a></li>
+					<!-- <li><a href="server.html">我们的服务</a></li> -->
+					<!-- <li><a href="product.html">产品形态</a></li> -->
+					<!-- <li><a href="want.html">招贤纳士</a></li> -->
+					<li><a href="./html/contact.html">联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle("slow" , function(){
+						});
+					});
+				</script>
+				<!-- script-for-menu -->
+			</div>
+
+			<div class="clearfix"> </div>
+			<!-- search-scripts -->
+			<script src="js/classie.js"></script>
+			<script src="js/uisearch.js"></script>
+				<script>
+					new UISearch( document.getElementById( 'sb-search' ) );
+				</script>
+			<!-- //search-scripts -->
+		</div>
+	</div>
+	<!--//header-->
+	<!--banner-->
+	 <div  class="about-banner about-bnr">
+	</div>
+	<!--//banner-->
+	<!--about-->
+	<div class="about">
+		<div class="container">
+			<div class="about-a">
+				<h1>关于我们</h1>
+				<h1>ABOUT US</h1><br>
+				<p>  敬业物流有限公司新都分公司于2017年8月经龙绵阳高新区工商行政管理局注册成立，公司性质为有限责任公司。公司仓库地址：绵阳市高新区普明中学旁物流园区内。是一家主营公路运输，仓储服务的现代化专业物流公司。长期从事全国各地公路、铁路、水路、航空联合运输服务；代理铁运发货，到站提货，仓储业务；全国各地零担、整车发送等业务。公司本着“客户至上、服务第一”的经营宗旨，为客户提供安全、迅捷的物流服务。</p>
+			</div>
+			<img image src="image/10.jpg">
+		</div>
+	</div>
+	<!--//about-->
+	<!--about-team-->
+	<hr>
+	<div class="about-team">
+		<div class="container">
+			<h1 class="title">我们的业务</h1>
+			<h1 class="title title1">Our Team</h1>
+			<div class="row team-row">
+
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="image/1.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">绵阳到成都专线</a></h4>
+							<p>每天发车，整车零担</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="image/02.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">绵阳到全国</a></h4>
+							<p>每天发车，整车零担</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="image/3.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">成都到省内</a></h4>
+							<p>每天发车，整车零担</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="image/4.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">成都到全国</a></h4>
+							<p>每天发车，整车零担</p>
+						</div>
+					</div>
+
+				</div>
+
+<!-- 				<a href="javascript:;"  onclick='ShowOrHide();' style="float:right;" id="aa">更多</a>
+
+
+				<div class="row team-row" id="divContent" style="display:none;">
+
+					<div class="col-md-3 team-grids">
+						<div class="thumbnail team-thmnl">
+							<img src="images/img6.jpg" class="img-responsive zoom-img" alt="...">
+							<div class="caption">
+								<h4><a href="#">绵阳到成都专线</a></h4>
+								<p>每天发车，整车零担</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 team-grids">
+						<div class="thumbnail team-thmnl">
+							<img src="images/img7.jpg" class="img-responsive zoom-img" alt="...">
+							<div class="caption">
+								<h4><a href="#">绵阳到川内</a></h4>
+								<p>每天发车，整车零担</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 team-grids">
+						<div class="thumbnail team-thmnl">
+							<img src="images/img8.jpg" class="img-responsive zoom-img" alt="...">
+							<div class="caption">
+								<h4><a href="#">绵阳到全国</a></h4>
+								<p>每天发车，整车零担</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 team-grids">
+						<div class="thumbnail team-thmnl">
+							<img src="images/img9.jpg" class="img-responsive zoom-img" alt="...">
+							<div class="caption">
+								<h4><a href="#">成都到国内</a></h4>
+								<p>每天发车，整车零担</p>
+							</div>
+						</div>
+
+					</div>
+				<div class="clearfix"> </div>
+			</div> -->
+		</div>
+	</div>
+	<!--//about-team-->
+<!-- 	<div class="about-art">
+		<div class="container">
+			<div class="about-a">
+				<h1>企业文化</h1>
+				<h1>ENTERPRISE CULTURE</h1><br>
+				<p> 敬业物流有限公司新都分公司于2017年8月经龙绵阳高新区工商行政管理局注册成立，公司性质为有限责任公司。公司仓库地址：绵阳市高新区普明中学旁物流园区内。是一家主营公路运输，仓储服务的现代化专业物流公司。长期从事全国各地公路、铁路、水路、航空联合运输服务；代理铁运发货，到站提货，仓储业务；全国各地零担、整车发送等业务。公司本着“客户至上、服务第一”的经营宗旨，为客户提供安全、迅捷的物流服务。</p>
+			</div>
+			<img image src="images/14.png">
+		</div>
 	</div> -->
-
-	<div class="box">
-		<div class="tu">
-			<img class="images" src="./image/1.jpg" alt="">	
-			<img class="images"src="./image/2.jpg" alt="">	
-			<img class="images" src="./image/3.jpg" alt="">	
-			<img class="images" src="./image/4.jpg" alt="">	
+	<!--footer-->
+	<br><br><br>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-left">
+				<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://h2design.taobao.com/"></a></p>
+			</div>
+			<div class="social-icons">
+				<ul>
+					<li><a href="#" class="fb"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#" class="gg"></a></li>
+					<li><a href="#" class="pn"></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
 	</div>
-	</div>
-	
-	
-	<script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script  type="text/javascript" charset="utf-8" >
-		// var appid  =  '49361';
-		// var secret =   'd296e33221b34544bd4b78f0ad800816';
-		// var tianqi_url = "https://route.showapi.com/9-2";
-		// window.onload=function(){
-		// 	$.ajax({
-		// 	    type: 'post',
-		// 	    url: 'https://route.showapi.com/9-2',
-		// 	    dataType: 'json',
-		// 	    data: {
-		// 	        // "showapi_timestamp": formatterDateTime(),
-		// 	        "showapi_appid": appid, //这里需要改成自己的appid
-		// 	        "showapi_sign": secret,  //这里需要改成自己的应用的密钥secret
-		// 	        "area":"绵阳"      //城市名称的参数,必要字段
-		// 	    },
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+				 var ShowOrHide=function()
+			{
+					var divContent=document.getElementById('divContent');
 
-		// 	    error: function(XmlHttpRequest, textStatus, errorThrown) {
-		// 	        alert("操作失败!");
-		// 	    },
-		// 	    success: function(data) {
-		// 	    	// console.log(data);//console变量在ie低版本下不能用 0为成功 -1错误 -2 余额不足
-		// 	     //    console.log(data.showapi_res_body.cityInfo.c3);	       
-		// 	   		// console.log(data.showapi_res_body.f1.day_weather_pic);	
-		// 	        $(".city").text("城市:"+data.showapi_res_body.cityInfo.c3);
-		// 	        // $(".riqi").text("日期:"+data.showapi_res_body.f1.day);
-		// 	        $(".wendu").text("温度:"+data.showapi_res_body.f1.day_air_temperature+"℃");
-		// 	        $(".tianqi").text("天气:"+data.showapi_res_body.f1.day_weather);
-		// 	        $(".tuu").attr("src",data.showapi_res_body.f1.day_weather_pic);     
-		// 	    }
-		// 	});
-		// }
-		
-
-
-	// $(document).ready(function() {
-	// 	var n=-1;
-	// 	setInterval(function(){
- //                $(".time").text('当前：' + new Date().toLocaleString());
- //                //固定颜色选择
- //    			var clo=["green","blue","yellow","pink","LightPink","Crimson","LavenderBlush"]
-	// 			n++;
-	// 			// console.log(n)
-	// 			$("h1").css('color',clo[n]);
-	// 			if(n==7){
-	// 				n=0;
-	// 			}  
-	// 			//随机颜色选择
-	// 			  var r=Math.floor(Math.random()*256);
- //                  var g=Math.floor(Math.random()*256);
- //                  var b=Math.floor(Math.random()*256);
-	// 			  var rgba="rgb("+r+','+g+','+b+")"; //返回rgba(r,g,b,a)格式颜色
-	// 			  $(".tu").css("color",rgba);	          
-	// 		},1000);
-
-	// });
-			var n=0;
-			var sid=setInterval(function(){
-					n++;
-					if(n>3){
-						n=0;
+					if(divContent.style.display=='none')
+					{
+							divContent.style.display='block';
+						document.getElementById('aa').innerText="收起";
 					}
-					console.log(n);
-				$(".tu").css("marginLeft",-n*900+"px");
+					else
+					{
+							divContent.style.display='none';
+							document.getElementById('aa').innerText="更多";
+					}
+}
 
-			},3000)
-		
 
-		// $(".btn").click(function(){
-		// 	// var audio=document.querySelector(".music");
-		// 	var audio=$(".music")[0]; //获取audio需要[0]，因为js操作获得的是audio对象，jQuery选择器获得的是jQuery对象，[0]对象的才是对应的节点对象，所以不能直接使用jQuery对象去操作。
-		
-		// 		audio.play();
-		// console.log(audio);
-		// })
 
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
 	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
